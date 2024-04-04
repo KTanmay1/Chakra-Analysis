@@ -18,8 +18,6 @@ class Root(db.Model):
     q4 = db.Column(db.Integer)
     q5 = db.Column(db.Integer)
 
-# Add similar models for Sacral, Solar Plexus, Heart, and Throat
-
 class Sacral(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     q1 = db.Column(db.Integer)
@@ -119,5 +117,15 @@ def store_answers():
 
     return jsonify({'message': 'Data received successfully'}), 200
 
+@app.route('/get_imbalanced_chakras', methods=['GET'])
+def get_imbalanced_chakras():
+    # Query the ImbalancedChakra table to get the imbalanced chakras
+    imbalanced_chakras = db.session.query(ImbalancedChakra.chakra).all()
+
+    # Convert the result to a list of chakra names
+    chakra_names = [chakra[0] for chakra in imbalanced_chakras]
+
+    return jsonify({'imbalancedChakras': chakra_names}), 200
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
