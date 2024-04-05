@@ -1,0 +1,507 @@
+.questionss1-child {
+  position: absolute;
+  top: 53px;
+  left: 34px;
+  background-color: #f8f1f1;
+  width: 804px;
+  height: 107px;
+}
+.answer-the-following {
+  position: absolute;
+  top: 80px;
+  left: 55px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+}
+.component-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgoldenrodyellow-100);
+}
+.questionss1-inner {
+  position: absolute;
+  top: 188px;
+  left: 37px;
+  width: 931px;
+  height: 95px;
+}
+.questionss1-item,
+.rectangle-div {
+  position: absolute;
+  left: 34px;
+  width: 931px;
+  height: 95px;
+  opacity: 0;
+}
+.questionss1-item {
+  top: 301px;
+  object-fit: cover;
+}
+.rectangle-div {
+  top: 410px;
+}
+.do-you-often,
+.have-you-experienced {
+  position: absolute;
+  top: 315px;
+  left: 66px;
+  font-weight: 700;
+}
+.do-you-often {
+  top: 427px;
+  left: 70px;
+}
+.questionss1-child1,
+.questionss1-child2,
+.questionss1-child3,
+.questionss1-child4 {
+  position: absolute;
+  height: 5.76%;
+  width: 89.75%;
+  top: 30.43%;
+  right: 7.35%;
+  bottom: 63.81%;
+  left: 2.9%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgoldenrodyellow-100);
+}
+.questionss1-child2,
+.questionss1-child3,
+.questionss1-child4 {
+  top: 43.95%;
+  right: 7.25%;
+  bottom: 50.29%;
+  left: 3%;
+}
+.questionss1-child3,
+.questionss1-child4 {
+  top: 50.71%;
+  right: 7.35%;
+  bottom: 43.54%;
+  left: 2.9%;
+}
+.questionss1-child4 {
+  top: 63.98%;
+  right: 7.16%;
+  bottom: 30.26%;
+  left: 3.09%;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  border-radius: 50%;
+}
+.frame-child {
+  cursor: pointer;
+  margin: 0;
+  top: 8px;
+  left: 21px;
+  background-color: var(--color-gainsboro);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.frame-item {
+  top: 13px;
+  left: 26px;
+  background-color: var(--color-gray);
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+.yes {
+  position: absolute;
+  top: 9px;
+  left: 47px;
+  font-weight: 700;
+}
+.component-6-child,
+.component-6-inner,
+.ellipse-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93px;
+  height: 36px;
+  overflow: hidden;
+}
+.component-6-child,
+.component-6-inner {
+  height: 43.82%;
+  width: 98.99%;
+  right: 1.01%;
+  bottom: 56.18%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.component-6-child {
+  top: 56.18%;
+  right: 0;
+  bottom: 0;
+  left: 1.01%;
+}
+.component-6 {
+  position: absolute;
+  top: 1126px;
+  left: 86px;
+  width: 79px;
+  height: 55px;
+}
+.questionss1-child5,
+.questionss1-child6 {
+  position: absolute;
+  height: 5.76%;
+  width: 89.75%;
+  top: 70.62%;
+  right: 7.16%;
+  bottom: 23.62%;
+  left: 3.09%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgoldenrodyellow-100);
+}
+.questionss1-child6 {
+  top: 83.9%;
+  right: 7.35%;
+  bottom: 10.34%;
+  left: 2.9%;
+}
+.have-you-felt {
+  position: absolute;
+  top: 1451px;
+  left: 67px;
+  font-weight: 700;
+}
+.questionss1-child7,
+.questionss1-child8 {
+  position: absolute;
+  height: 5.76%;
+  width: 89.75%;
+  top: 90.54%;
+  right: 7.35%;
+  bottom: 3.7%;
+  left: 2.9%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgoldenrodyellow-100);
+}
+.questionss1-child8 {
+  top: 77.26%;
+  bottom: 16.98%;
+}
+.component-10,
+.component-9 {
+  position: absolute;
+  top: 1576px;
+  left: 89px;
+  width: 79px;
+  height: 55px;
+}
+.component-9 {
+  top: 1465px;
+  left: 88px;
+}
+.have-you-felt1 {
+  position: absolute;
+  top: 1109px;
+  left: 62px;
+  font-weight: 700;
+}
+.do-you-experience {
+  margin: 0;
+}
+.do-you-experience-container,
+.do-you-often1,
+.have-you-experienced1 {
+  position: absolute;
+  top: 1223px;
+  left: 65px;
+  font-weight: 700;
+}
+.do-you-often1,
+.have-you-experienced1 {
+  top: 1336px;
+}
+.have-you-experienced1 {
+  top: 887px;
+  left: 62px;
+}
+.questionss1-child9 {
+  position: absolute;
+  height: 5.76%;
+  width: 89.75%;
+  top: 57.34%;
+  right: 7.16%;
+  bottom: 36.9%;
+  left: 3.09%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgoldenrodyellow-100);
+}
+.component-7,
+.component-8 {
+  position: absolute;
+  top: 1350px;
+  left: 88px;
+  width: 79px;
+  height: 55px;
+}
+.component-7 {
+  top: 1240px;
+  left: 87px;
+}
+.do-you-find,
+.have-you-felt2 {
+  position: absolute;
+  top: 768px;
+  left: 55px;
+  font-weight: 700;
+}
+.have-you-felt2 {
+  top: 536px;
+  left: 63px;
+}
+.questionss1-child10 {
+  position: absolute;
+  height: 5.99%;
+  width: 90.14%;
+  top: 37.07%;
+  right: 6.96%;
+  bottom: 56.93%;
+  left: 2.9%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgoldenrodyellow-100);
+}
+.component-5-child,
+.component-5-inner {
+  position: absolute;
+  height: 43.97%;
+  width: 98.99%;
+  top: 0;
+  right: 1.01%;
+  bottom: 56.03%;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.component-5-child {
+  top: 56.03%;
+  right: 0;
+  bottom: 0;
+  left: 1.01%;
+}
+.component-3,
+.component-5 {
+  position: absolute;
+  top: 901px;
+  left: 86px;
+  width: 89px;
+  height: 58px;
+}
+.component-3 {
+  top: 668px;
+  left: 83px;
+}
+.how-frequently-do,
+.how-often-do {
+  position: absolute;
+  top: 649px;
+  left: 55px;
+  font-weight: 700;
+}
+.how-often-do {
+  top: 197px;
+  display: inline-block;
+  width: 897px;
+  height: 42px;
+}
+.radio-button-child,
+.radio-button-inner {
+  position: absolute;
+  height: 43.85%;
+  width: 98.92%;
+  top: 0;
+  right: 1.08%;
+  bottom: 56.15%;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.radio-button-child {
+  top: 56.15%;
+  right: 0;
+  bottom: 0;
+  left: 1.08%;
+}
+.component-4,
+.radio-button {
+  position: absolute;
+  top: 218px;
+  left: 79px;
+  width: 83px;
+  height: 52px;
+}
+.component-4 {
+  top: 780px;
+  left: 84px;
+  width: 89px;
+  height: 58px;
+}
+.questionss1-child11 {
+  position: absolute;
+  top: 315px;
+  left: 48px;
+  background-color: var(--color-gainsboro);
+  width: 2px;
+  height: 3px;
+}
+.radio-button-inner1,
+.radio-button-inner2 {
+  position: absolute;
+  height: 43.9%;
+  width: 98.98%;
+  top: 0;
+  right: 1.02%;
+  bottom: 56.1%;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.radio-button-inner2 {
+  top: 56.1%;
+  right: 0;
+  bottom: 0;
+  left: 1.02%;
+}
+.radio-button1 {
+  position: absolute;
+  top: 555px;
+  left: 85px;
+  width: 88px;
+  height: 59px;
+}
+.do-you-struggle {
+  position: absolute;
+  top: 990px;
+  left: 65px;
+  font-weight: 700;
+}
+.radio-button2 {
+  position: absolute;
+  top: 1009px;
+  left: 87px;
+  width: 79px;
+  height: 55px;
+}
+.do-you-struggle1 {
+  position: absolute;
+  top: 1560px;
+  left: 69px;
+  font-weight: 700;
+}
+.submit1 {
+  position: absolute;
+  top: 14px;
+  left: 72px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-lightpink);
+  position: absolute;
+  top: 1643px;
+  left: 812px;
+  border-radius: var(--br-81xl);
+  width: 198px;
+  height: 53px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.radio-button-inner5,
+.radio-button-inner6 {
+  position: absolute;
+  height: 43.97%;
+  width: 98.95%;
+  top: 0;
+  right: 1.05%;
+  bottom: 56.03%;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.radio-button-inner6 {
+  top: 56.03%;
+  right: 0;
+  bottom: 0;
+  left: 1.05%;
+}
+.radio-button3 {
+  position: absolute;
+  top: 329px;
+  left: 78px;
+  width: 86px;
+  height: 68px;
+}
+.radio-button-inner7 {
+  position: absolute;
+  height: 43.83%;
+  width: 98.93%;
+  top: 0;
+  right: 1.07%;
+  bottom: 56.17%;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-child47 {
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 13px;
+  left: 26px;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+.radio-button-inner8 {
+  position: absolute;
+  height: 43.83%;
+  width: 98.93%;
+  top: 56.17%;
+  right: 0;
+  bottom: 0;
+  left: 1.07%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.radio-button4 {
+  position: absolute;
+  top: 443px;
+  left: 83px;
+  width: 75px;
+  height: 60px;
+}
+.questionss1 {
+  width: 100%;
+  position: relative;
+  height: 1702px;
+  overflow: hidden;
+  background-image: url(./public/chakras.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

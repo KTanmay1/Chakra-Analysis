@@ -1,0 +1,94 @@
+.frame-child100,
+.frame-child101 {
+  position: absolute;
+  border-radius: 50%;
+}
+.frame-child100 {
+  top: 8px;
+  left: 21px;
+  background-color: var(--color-gainsboro);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.frame-child101 {
+  top: 13px;
+  left: 26px;
+  background-color: var(--color-gray);
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+.yes26 {
+  position: absolute;
+  top: 9px;
+  left: 47px;
+  font-weight: 700;
+}
+.ellipse-parent49 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93px;
+  height: 36px;
+  overflow: hidden;
+}
+.property-1default-child,
+.property-1default-inner {
+  position: absolute;
+  height: 43.9%;
+  width: 98.94%;
+  top: 0;
+  right: 1.06%;
+  bottom: 56.1%;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.property-1default-child {
+  top: 56.1%;
+  right: 0;
+  bottom: 0;
+  left: 1.06%;
+}
+.frame-child105,
+.property-1default {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 94px;
+  height: 82px;
+}
+.frame-child105 {
+  top: 13px;
+  left: 26px;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  width: 10px;
+  height: 10px;
+}
+.property-1variant2,
+.property-1variant3 {
+  position: absolute;
+  top: 122px;
+  left: 20px;
+  width: 94px;
+  height: 82px;
+}
+.property-1variant3 {
+  top: 224px;
+}
+.radio-button5 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  height: 326px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
