@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-inika: Inika;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-lightpink: #ffb3b3;
+  --color-black: #000;
+  --color-gray: #130101;
+  --color-gainsboro: #d9d9d9;
+  --color-lightgoldenrodyellow-100: #c2ddb8;
+  --color-blueviolet: #9747ff;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-xl: 20px;
+  --br-8xs: 5px;
+}
