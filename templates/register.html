@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<body>
+    <div class="container">
+    
+        <form  action="{{url_for('register')}}" method="post"> 
+       
+            <h1> Sign up </h1> 
+            <p>
+                <div class="form-group> 
+                <label for="name" class="uname" data-icon="u">Your username</label>
+                <input id="name" name="name" required type="text" placeholder="mysuperusername690" />
+            </p>
+            <p> 
+                <label for="email" class="youmail" data-icon="e" > Your email</label>
+                <input id="email" name="email" required type="email" placeholder="mysupermail@mail.com"/> 
+            </p>
+            <p> 
+                <label for="password" class="youpasswd" data-icon="p">Your password </label>
+                <input id="password" name="password" required type="password" placeholder="eg. X8df!90EO"/>
+            </p>
+            <p> 
+                <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+                <input id="passwordsignup_confirm" name="passwordsignup_confirm" required type="password" placeholder="eg. X8df!90EO"/>
+            </p>
+            <p class="signin button"> 
+                <input type="submit" value="Sign up"/> 
+            </p>
+        
+            <p class="change_link">  
+                Already a member ?
+                <a href="{{url_for('login')}}" class="to_register"> Go and log in </a>
+            </p>
+        </form> 
+
+    </div>  
+ 
+</body>
+</html>
