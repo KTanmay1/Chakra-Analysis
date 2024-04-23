@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chakra Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.5;
+        }
+        .results {
+            background-color: #e2e2e2;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Chakra Analysis Results</h1>
+        </header>
+        <section>
+            <h2>Overview</h2>
+            <p>Your responses indicate areas where your chakras may be imbalanced. Here's a look at what this could mean for you:</p>
+            {% for chakra, status in results.items() %}
+            <div class="results">
+                <h3>{{ chakra }}</h3>
+                <p>It appears your {{ chakra.lower() }} might be {{ status }}. Specific suggestions and exercises.</p>
+            </div>
+            {% endfor %}
+        </section>
+        <footer>
+            <p>Thank you for completing the chakra analysis. Follow up with our detailed guide to improve your chakra balance.</p>
+        </footer>
+    </div>
+</body>
+</html>
